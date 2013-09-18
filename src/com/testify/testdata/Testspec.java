@@ -10,6 +10,9 @@ public class Testspec {
 		System.out.println("hello"+Test3chk.number2);
 		
 		
+		
+		
+		
 		System.out.println("hello"+Test2chk.number2);
 	}
 
