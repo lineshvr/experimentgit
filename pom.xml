@@ -2,13 +2,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>experimentgit</groupId>
 	<artifactId>experimentgit</artifactId>
-	<version>1.0.3-snapshot</version>
+	<version>1.0.3</version>
 	<name>experimentgit</name>
 
  <scm> <connection>scm:git:https://github.com/lineshvr/experimentgit.git</connection> 
 		<developerConnection>scm:git:git@github.com:lineshvr/experimentgit.git</developerConnection> 
 		<url>https://github.com/lineshvr/experimentgit</url>
- </scm> 
+   <tag>1.0.3</tag>
+  </scm> 
 <!-- <properties>
     github server corresponds to entry in ~/.m2/settings.xml
     <github.global.server>github</github.global.server>
