@@ -45,8 +45,7 @@
 					<useReleaseProfile>false</useReleaseProfile>
 					<releaseProfiles>release</releaseProfiles>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					   <pushChanges>true</pushChanges>
-					
+				
 				</configuration>
 			</plugin>
 			<plugin>
