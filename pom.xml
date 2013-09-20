@@ -2,13 +2,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>experimentgit</groupId>
 	<artifactId>experimentgit</artifactId>
-	<version>1.0.4-snapshot</version>
+	<version>1.0.4</version>
 	<name>experimentgit</name>
 
  <scm> <connection>scm:git:https://github.com/lineshvr/experimentgit.git</connection> 
 		<developerConnection>scm:git:git@github.com:lineshvr/experimentgit.git</developerConnection> 
 		<url>https://github.com/lineshvr/experimentgit</url>
-   <tag>1.0.4</tag>
+   <tag>1.0.5</tag>
   </scm> 
 <!-- <properties>
     github server corresponds to entry in ~/.m2/settings.xml
@@ -103,6 +103,15 @@
 		</plugins>
 
 	</build>
+	
+		 <distributionManagement>
+	<repository>
+        <id>maven-tests-repository</id>
+        <url>https://github.com/lineshvr/experimentgit/master/releases</url>
+</repository>
+	</distributionManagement>
+
+	
 <!-- 			 <distributionManagement>
 		<repository>
 			<id>github</id>
@@ -112,7 +121,7 @@
 	</distributionManagement>  -->
 	
 	
-	<distributionManagement>
+	<!-- <distributionManagement>
     <repository>
         <id>release-repository</id>
         <name>Repository Name</name>
@@ -124,7 +133,7 @@
         <url>scp:////https://github.com/lineshvr/experimentgit/path/to/dir/maven/snapshots</url>
     </snapshotRepository>
     
-</distributionManagement>
+</distributionManagement> -->
 	
 	
 </project>
