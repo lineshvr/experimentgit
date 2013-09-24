@@ -104,12 +104,7 @@
 
 	</build>
 	
-		 <distributionManagement>
-	<repository>
-        <id>maven-tests-repository</id>
-        <url>https://github.com/lineshvr/experimentgit/master/releases</url>
-</repository>
-	</distributionManagement>
+	
 
 	
 <!-- 			 <distributionManagement>
