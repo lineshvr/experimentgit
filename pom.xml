@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>experimentgit</groupId>
 	<artifactId>experimentgit</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.7-snapshot</version>
 	<name>experimentgit</name>
 
  <scm> <connection>scm:git:https://github.com/lineshvr/experimentgit.git</connection> 
