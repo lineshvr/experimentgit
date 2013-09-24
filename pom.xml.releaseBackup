@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>experimentgit</groupId>
 	<artifactId>experimentgit</artifactId>
-	<version>1.0.8-snapshot</version>
+	<version>1.0.7-snapshot</version>
 	<name>experimentgit</name>
 
  <scm> <connection>scm:git:https://github.com/lineshvr/experimentgit.git</connection> 
@@ -47,13 +47,5 @@
 
 	</build>
 	
-<distributionManagement>
-    <repository>
-        <id>release-repository</id>
-        <name>Repository Name</name>
-        <url>scp://https://github.com/lineshvr/experimentgit/releases</url>
-    </repository>
-</distributionManagement>
-
 	
 </project>
