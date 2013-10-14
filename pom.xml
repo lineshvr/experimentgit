@@ -39,13 +39,14 @@
 				<version>2.4.1</version>
 				<configuration>
 					<useReleaseProfile>false</useReleaseProfile>
-					<releaseProfiles>release</releaseProfiles>
+					 <goals>deploy</goals>
+	<!-- 				<releaseProfiles>release</releaseProfiles> -->
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 		<!-- 			<goals>deploy assembly:single</goals>
 					<tagBase>scm:git:https://github.com/lineshvr/experimentgit.git/master/tags</tagBase>
 	 -->			</configuration>
 			</plugin>
-			<plugin>
+		<!-- 	<plugin>
 				<artifactId>maven-source-plugin</artifactId>
 				<executions>
 					<execution>
@@ -66,7 +67,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<!-- <plugin> <groupId>com.github.github</groupId> <artifactId>site-maven-plugin</artifactId> 
 				<version>0.7</version> <configuration> <message>Maven artifacts for ${project.version}</message> 
 				git commit message <noJekyll>true</noJekyll> disable webpage processing <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
@@ -91,7 +92,6 @@
 		</repository>
 	</distributionManagement>
 
-
 	<!-- <distributionManagement> <repository> <id>github</id> <name>GitHub 
 		${project.artifactId} Repository</name> <url>https://github.com/lineshvr/${project.artifactId}/mvn-repo</url> 
 		</repository> </distributionManagement> -->
@@ -104,4 +104,5 @@
 		</snapshotRepository> </distributionManagement> -->
 
 
+	<packaging>jar</packaging>
 </project>
